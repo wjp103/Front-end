@@ -4,7 +4,7 @@ import "./app.css";
 import { Routes, Route, Link } from "react-router-dom";
 
 import Login from "./components/login";
-import SignUp from "./components/signup";
+import Vivinosignup from "./components/vivinosignup";
 import Home from "./components/home";
 
 function App() {
@@ -21,22 +21,6 @@ function App() {
           <Link className="navbar-brand" to={"/sign-up"}>
             회원가입
           </Link>
-          {/*
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to={"/sign-in"}>
-                  로그인
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={"/sign-up"}>
-                  회원가입
-                </Link>
-              </li>
-            </ul>
-          </div>
-          */}
         </div>
       </nav>
 
@@ -45,7 +29,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/sign-in" element={<Login />} />
-            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/sign-up" element={<Vivinosignup />} />
           </Routes>
         </div>
       </div>

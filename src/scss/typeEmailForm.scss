@@ -1,0 +1,113 @@
+@-webkit-keyframes typeEmailForm__opaque-background--ihdPx {
+  0% {
+    background-color: #f7f3f0;
+  }
+  to {
+    background-color: #f2ebe6;
+  }
+}
+@keyframes typeEmailForm__opaque-background--ihdPx {
+  0% {
+    background-color: #f7f3f0;
+  }
+  to {
+    background-color: #f2ebe6;
+  }
+}
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0 0 24px;
+  }
+}
+.typeEmailForm__fieldContainer--c8BJR {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+}
+@media (min-width: 1024px) {
+  .typeEmailForm__fieldContainer--c8BJR {
+    margin-bottom: 24px;
+  }
+}
+.typeEmailForm__errorMessage--29z2r {
+  color: #ba1628;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 4px 0 0;
+  padding-bottom: 8px;
+}
+@media (min-width: 1024px) {
+  .typeEmailForm__errorMessage--29z2r {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+}
+.typeEmailForm__textField--9rRIq {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: #fafafa;
+  border: 1px solid #eae0da;
+  height: 40px;
+  padding-left: 16px;
+  margin-bottom: 0;
+}
+.typeEmailForm__textField--9rRIq::-moz-placeholder {
+  color: #a8a5a3;
+}
+.typeEmailForm__textField--9rRIq:-ms-input-placeholder {
+  color: #a8a5a3;
+}
+.typeEmailForm__textField--9rRIq::placeholder {
+  color: #a8a5a3;
+}
+.typeEmailForm__textField--9rRIq:invalid {
+  border: 1px solid #eae0da;
+}
+.typeEmailForm__textField--9rRIq:-webkit-autofill,
+.typeEmailForm__textField--9rRIq:-webkit-autofill:focus,
+.typeEmailForm__textField--9rRIq:-webkit-autofill:hover {
+  border: 1px solid #eae0da;
+  box-shadow: inset 0 0 0 1000px #fafafa;
+}
+@media (min-width: 1024px) {
+  .typeEmailForm__textField--9rRIq {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    height: 48px;
+  }
+}
+.typeEmailForm__exclamationMark--3GmMi {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+@media (min-width: 1024px) {
+  .typeEmailForm__exclamationMark--3GmMi {
+    right: 16px;
+    top: 16px;
+  }
+}
+.typeEmailForm__modalButton--dS5pj {
+  margin-bottom: 40px;
+}
+@media (min-width: 1024px) {
+  .typeEmailForm__modalButton--dS5pj {
+    margin-bottom: 48px;
+  }
+}
