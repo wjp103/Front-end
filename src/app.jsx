@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./app.css";
+import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 
 import Login from "./components/login";
@@ -30,6 +30,8 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/sign-in" element={<Login />} />
             <Route path="/sign-up" element={<Vivinosignup />} />
+            <Route path="/terms" element={<div>Term</div>} />
+            <Route path="/privacy" element={<div>Privacy</div>} />
           </Routes>
         </div>
       </div>

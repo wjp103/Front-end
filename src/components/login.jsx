@@ -1,16 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Login = (props) => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const onEmailHandler = (event) => {
+    setEmail(event.currentTarget.value);
+  };
+
+  const onPasswordHandler = (event) => {
+    setPassword(event.currentTarget.value);
+  };
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
     <form>
       <h3>Sign In</h3>
 
       <div className="form-group">
-        <label>Email address</label>
         <input
           type="email"
           className="form-control"
-          placeholder="Enter email"
+          placeholder="Type your email"
+          value={email || ""}
+          onChange={onEmailHandler}
         />
       </div>
 
@@ -19,7 +35,9 @@ const Login = (props) => {
         <input
           type="password"
           className="form-control"
-          placeholder="Enter password"
+          placeholder="Type your password"
+          value={password || ""}
+          onChange={onPasswordHandler}
         />
       </div>
 
@@ -36,7 +54,11 @@ const Login = (props) => {
         </div>
       </div>
 
-      <button type="submit" className="btn btn-primary btn-block">
+      <button
+        type="submit"
+        className="btn btn-primary btn-block"
+        onSubmit={onSubmit}
+      >
         Submit
       </button>
       <p className="forgot-password text-right">
