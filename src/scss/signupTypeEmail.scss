@@ -1,0 +1,176 @@
+@-webkit-keyframes signupTypeEmail__opaque-background--3Adm1 {
+  0% {
+    background-color: #f7f3f0;
+  }
+  to {
+    background-color: #f2ebe6;
+  }
+}
+@keyframes signupTypeEmail__opaque-background--3Adm1 {
+  0% {
+    background-color: #f7f3f0;
+  }
+  to {
+    background-color: #f2ebe6;
+  }
+}
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0 0 24px;
+  }
+}
+.signupTypeEmail__signupTypeEmail--TUY94 {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .signupTypeEmail__signupTypeEmail--TUY94 {
+    height: 100%;
+    justify-content: center;
+  }
+}
+.signupTypeEmail__title--1CwHj {
+  font-size: 26px;
+  line-height: normal;
+  font-weight: 600;
+  margin-top: 0;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+@media (min-width: 1024px) {
+  .signupTypeEmail__title--1CwHj {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+.signupTypeEmail__title--1CwHj .signupTypeEmail__titleJoin--kHN9v {
+  font-weight: 600;
+}
+.signupTypeEmail__title--1CwHj .signupTypeEmail__titleLogIn--YCVsh {
+  color: #ba1628;
+}
+.signupTypeEmail__info--36yb7 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+@media (min-width: 768px) {
+  .signupTypeEmail__info--36yb7 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.signupTypeEmail__divider--1oZUZ {
+  border-top: 1px solid #eae0da;
+  color: #a8a5a3;
+  height: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .signupTypeEmail__divider--1oZUZ {
+    margin-bottom: 48px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+.signupTypeEmail__divider--1oZUZ .signupTypeEmail__dividerText--2wWOH {
+  background-color: #fff;
+  margin: -12px auto 0;
+  width: 48px;
+}
+@media (min-width: 1024px) {
+  .signupTypeEmail__divider--1oZUZ .signupTypeEmail__dividerText--2wWOH {
+    margin-top: -16px;
+  }
+}
+.signupTypeEmail__footer--28-jC {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+  text-align: right;
+}
+@media (min-width: 1024px) {
+  .signupTypeEmail__footer--28-jC {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.signupTypeEmail__footer--28-jC .signupTypeEmail__link--2Dwv8 {
+  font-weight: 400;
+  color: #ba1628;
+}
+@media (min-width: 768px) {
+  .signupTypeEmail__footer--28-jC {
+    margin-top: 0;
+  }
+}
+.signupTypeEmail__tosInfo--3rf-K {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .signupTypeEmail__tosInfo--3rf-K {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .signupTypeEmail__tosInfo--3rf-K {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.signupTypeEmail__tosInfo--3rf-K .signupTypeEmail__link--2Dwv8,
+.signupTypeEmail__tosInfo--3rf-K .signupTypeEmail__link--2Dwv8:hover {
+  color: #1e1e1e;
+  text-decoration: underline;
+}
+.signupTypeEmail__errorMessage--2Kxct {
+  color: #ba1628;
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  margin: 4px 0 0;
+}
+@media (min-width: 768px) {
+  .signupTypeEmail__errorMessage--2Kxct {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+}
+.signupTypeEmail__socialError--3CA-t {
+  margin-bottom: 16px;
+}
+.signupTypeEmail__emailForm--1v6Xo {
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  .signupTypeEmail__emailForm--1v6Xo {
+    margin-top: 32px;
+  }
+}
+.signupTypeEmail__hasErrors--2M571 {
+  border-color: #ba1628;
+}
+.signupTypeEmail__titleSeparator--3QPY- {
+  font-weight: 400;
+}
